@@ -1,0 +1,41 @@
+.register_confirm_header {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+}
+.bg-cont {
+  background-color: #f8eee5;
+  padding: 30px 0;
+}
+.bg-cont h2 {
+  font-size: 1.2rem;
+}
+.bg-cont span {
+  font-size: 1.4rem;
+}
+.date-cont h2 {
+  color: #c85412;
+}
+.offerings ul {
+  display: flex;
+  justify-content: center;
+}
+.offerings ul li {
+  width: 20%;
+  margin: 10px 20px;
+  list-style: none;
+}
+.offerings ul li::before {
+  content: "\2022";
+  color: #c85412;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.register_confirm_footer {
+  background-color: #142342;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
